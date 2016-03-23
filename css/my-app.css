@@ -121,7 +121,10 @@ body {
     background-image: url("");
 }
 .new-list-block li{
-    line-height: 6.5rem;
+    /*height: 6.5rem;*/
+}
+.list-block .item-inner .item-after{
+    padding-top: 5px;
 }
 .new-list-block .bg-green {
     background-color: #f9f9fb;
