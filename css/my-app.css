@@ -1,0 +1,140 @@
+.hd h2, .hd h3 {
+    float: none;
+    display: block;
+}
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, button {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+em {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+button, input, select, textarea {
+    cursor: pointer;
+}
+
+p {
+    word-wrap: break-word
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.clear {
+    *zoom: 1
+}
+
+* {
+
+}
+
+html {
+    width: 100%;
+    font-family: 'Lantinghei SC', Helvetica, Arial, 'Hiragino Sans GB', 'STHeiti', 'WenQuanYi Micro Hei', sans-serif;
+    font-size: 62.5%;
+    min-height: 100%;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 10, 0);
+}
+.page {
+    background: #f2f3f5;
+}
+.pad-left-2{
+    padding-left: 2rem;
+}
+.pad-right-2{
+    padding-right: 2rem;
+}
+.mar-left-2{
+    margin-left: 2rem;
+ }
+.mar-right-2{
+    margin-right: 2rem;
+}
+.navbar, .toolbar{
+    position: fixed;
+}
+.list-block {
+    margin: 0;
+}
+
+.navbar-fixed .page-content, .navbar-through .page-content {
+    padding-top: 4rem;
+}
+
+.new-list-block img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.list-block .item-text {
+    font-size: 15px;
+    color: #8e8e93;
+    line-height: -1rem;
+    position: relative;
+    overflow: hidden;
+    height: 2.1rem;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    color: rgba(242, 28, 62, 1);
+}
+
+.new-list-block .item-link .item-inner {
+    background-image: url("");
+}
+
+.new-list-block .bg-green{
+    background-color: #f9f9fb;
+}
+.new-list-block .badge{
+    color: #b1b4b9;
+}
+
+.new-list-block li:hover{
+    background-color: #f9f9fb;
+}
+.new-list-block2,.new-list-block3{
+    margin-top: 1.5rem;
+}
+.new-list-block3 ul{
+    background-color: #edecf1;
+}
+.new-list-block3 .item-after{
+    font-size: 1.2rem;
+    margin-left: 0px;
+}
+
+.new-list-block .content-block{
+    margin: 1rem 0;
+}
