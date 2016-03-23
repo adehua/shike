@@ -117,11 +117,20 @@ body {
 .new-list-block .bg-green{
     background-color: #f9f9fb;
 }
-.new-list-block .badge{
+.new-list-block1 .badge{
     color: #b1b4b9;
 }
+.new-list-block1 .bg-green{
+    background-color: #f9f9fb;
+}
+.new-list-block3 .bg-green{
+    background-color: #e7e6eb;
+}
+.new-list-block3 .badge{
+    color: #bfbec3;
+}
 
-.new-list-block li:hover{
+.new-list-block1 li:hover{
     background-color: #f9f9fb;
 }
 .new-list-block2,.new-list-block3{
@@ -137,4 +146,44 @@ body {
 
 .new-list-block .content-block{
     margin: 1rem 0;
+}
+.new-list-block3 .item-title,.new-list-block3 .item-text{
+    color: #bcbbc0;
+}
+.new-list-block3 li:hover{
+    background-color: #ababae;
+}
+.toolbar .toolbar-inner-index1{
+    width: 16%;
+    z-index: 12;
+}
+.toolbar .toolbar-inner-index2{
+    width: 84%;
+    left: 16%;
+    z-index: 12;
+}
+.toolbar .toolbar-inner-index2 a{
+    width: 33%;
+    text-align: center;
+    display:inline-block;
+    border-left: 1px solid #ababae;
+}
+.toolbar .toolbar-inner-index3{
+    z-index: 11;
+}
+.toolbar .toolbar-inner-index3 ul{
+    position: absolute;bottom: 4.4rem;width: 28%;line-height: 4.4rem;background: #fff;border: 1px solid #eee;
+}
+.toolbar .toolbar-inner-index3 ul:first-child{
+    left: 44%;
+}
+.toolbar .toolbar-inner-index3 ul:last-child{
+    left: 72%;
+}
+.toolbar .toolbar-inner-index3 ul li a{
+    text-align: center;
+    display: block;
+}
+.toolbar .toolbar-inner-index3 ul li a span{
+    border-bottom: 1px solid #ababae;
 }

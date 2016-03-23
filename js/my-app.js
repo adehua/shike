@@ -51,3 +51,4 @@ $('.more-list').on('click', function () {
     $(this).hide();
     $(".new-list-block3 li").show();
 })
+
