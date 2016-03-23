@@ -99,8 +99,8 @@ body {
 }
 
 .new-list-block img {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
 }
 
 .list-block .item-text {
@@ -120,7 +120,9 @@ body {
 .new-list-block .item-link .item-inner {
     background-image: url("");
 }
-
+.new-list-block li{
+    line-height: 6.5rem;
+}
 .new-list-block .bg-green {
     background-color: #f9f9fb;
 }
