@@ -262,7 +262,7 @@ body {
 .ranks-list .button.active {
     color: #007aff;
     background: #fff;
-    border-bottom: 3px solid #ababae;
+    border-bottom: 3px solid #007aff;
 }
 
 .ranks-list .ranks-time {
