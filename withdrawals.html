@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+</head>
+<body>
+<!-- Status bar overlay for fullscreen mode-->
+<div class="statusbar-overlay"></div>
+<!--&lt;!&ndash; Panels overlay&ndash;&gt;-->
+<!--<div class="panel-overlay"></div>-->
+<!--&lt;!&ndash; Left panel with reveal effect&ndash;&gt;-->
+<!--<div class="panel panel-left panel-reveal">-->
+<!--<div class="content-block">-->
+<!--<p>Left panel content goes here</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash; Right panel with cover effect&ndash;&gt;-->
+<!--<div class="panel panel-right panel-cover">-->
+<!--<div class="content-block">-->
+<!--<p>Right panel content goes here</p>-->
+<!--</div>-->
+<!--</div>-->
+<!-- Views-->
+<div class="views">
+    <!-- Your main view, should have "view-main" class-->
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+            <div class="navbar-inner navbar-on-center">
+                <div class="left"><a href="index.html" class="back link"> <i class="icon icon-back"></i></a></div>
+                <div class="center sliding">提现信息</div>
+                <div class="right" style=""></div>
+            </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Page, data-page contains page name-->
+            <div class="pages">
+                <div data-page="home" class="page navbar-fixed home-list">
+                    <div class="page-content">
+                        <div class="withdrawals-info">
+                            <a href="javascript:void(0);">
+                                <div>支付宝账户</div>
+                            </a>
+                            <a href="javascript:void(0);">
+                                <div>微信钱包</div>
+                            </a>
+                        </div>
+                        <div class="list-block home-money">
+                            <ul>
+                                <li><a href="about.html" class="item-link">
+                                    <div class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">添加提现密码</div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+            <div class="toolbar-inner toolbar-inner-index1">
+                <a href="index.html" class="link toolbar-inner-home">首页</a>
+            </div>
+            <div class="toolbar-inner toolbar-inner-index2">
+                <a href="index.html" class="link toolbar-inner-index">开始赚钱</a>
+                <a href="#" class="link toolbar-inner-my-info">我的信息</a>
+                <a href="#" class="link toolbar-inner-more-info">更多</a>
+            </div>
+            <div class="toolbar-inner toolbar-inner-index3">
+                <ul style="display: none" class="toolbar-inner-my-info-ul">
+                    <li><a href="home.html" class="link"><span>个人中心</span></a></li>
+                    <li><a href="javascript:void(0);" class="link"><span>邀请好友</span></a></li>
+                    <li><a href="ranks.html" class="link"><span>排行榜</span></a></li>
+                    <li><a href="javascript:void(0);" class="link"><span>收入查询</span></a></li>
+                </ul>
+                <ul style="display: none" class="toolbar-inner-more-info-ul">
+                    <li><a href="javascript:void(0);" class="link"><span>关于我们</span></a></li>
+                    <li><a href="javascript:void(0);" class="link"><span>下载小兵</span></a></li>
+                    <li><a href="javascript:void(0);" class="link"><span>常见问题</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="http://mblog.xnnye.cn/js/zepto.min.js"></script>
+<script type="text/javascript" src="js/bar.js"></script>
+<script type="text/javascript" src="js/ranks.js"></script>
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>
